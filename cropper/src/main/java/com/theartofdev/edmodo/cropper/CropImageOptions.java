@@ -254,10 +254,10 @@ public class CropImageOptions implements Parcelable {
     guidelinesColor = Color.argb(170, 255, 255, 255);
     backgroundColor = Color.argb(119, 0, 0, 0);
 
-    minCropWindowWidth = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 42, dm);
-    minCropWindowHeight = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 42, dm);
-    minCropResultWidth = 40;
-    minCropResultHeight = 40;
+    minCropWindowWidth = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 30, dm);
+    minCropWindowHeight = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 20, dm);
+    minCropResultWidth = 28;
+    minCropResultHeight = 18;
     maxCropResultWidth = 99999;
     maxCropResultHeight = 99999;
 
